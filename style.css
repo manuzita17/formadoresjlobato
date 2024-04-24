@@ -2,38 +2,64 @@
     margin: 0;
     padding: 0;
 }
+.cabecalho{
+    background-color: beige;
+}
 h1{
     text-align: left;
     font-size: 100px;
-    font-style: italic;
     color: rgb(0, 0, 0);
 }
 p{
     font-size: 16px;
     color: rgb(0, 0, 0);
-
+    margin: 2%;
+    position: absolute;
+    left: 2%;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(240, 240, 213);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: -20px;
- 
 }
 .button{
     display: inline-block;
     padding: 10px 20px;
     }
     .botao{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(158, 144, 99, 0.904);
         color: rgb(0, 0, 0);
         border: none;
         text-align: center;
         padding: 10px 20px;
         display: inline-block;
         cursor: pointer;
+        position: absolute;
+        left: 2%;
     }
     ul{
         font-size: 16px;
         color: rgb(0, 0, 0);
+        position: absolute;
+        left: 2%;
+        top: 35%;
+    }
+    .cabecalho{
+        border-style: groove;
+        border-color: rgb(0, 0, 0);
+        display: flex;
+    }
+    .container {
+        width: 100%;
+    }
+    
+    .left {
+        float: left;
+        margin-right: 100px; /* Espaço entre as imagens */
+        margin-top: 12%;
+    }
+    
+    .right {
+        float: right;
+        margin-top: 12%;
     }
